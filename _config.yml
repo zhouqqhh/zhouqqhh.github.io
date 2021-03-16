@@ -82,17 +82,19 @@ analytics:
 
 # Site Author
 author:
-  name             : "Qinhong Zhou (周沁泓)"
+  name             : |
+    Qinhong Zhou <br>
+    周沁泓
   avatar           : "profile.jpeg"
   bio              : |
-    Master Student, <br>
+    Master Student <br>
     Tsinghua University <br>
     Department of Computer Science and Technology
   location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "zhouqqhh@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -196,6 +198,17 @@ collections:
 
 # Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: ""
@@ -203,6 +216,41 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
