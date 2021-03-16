@@ -22,4 +22,4 @@ Honors
 ======
 * Scholarship of Overall Excellence (top 5%), Tsinghua University, 2017
 * Scholarship of Academic Excellence, Tsinghua University, 2017
-* Excellent Graduate (Bachelor), Department of Computer Science and Technology, Tsinghua University, 2017
+* Excellent Graduate (Bachelor), Department of Computer Science and Technology, Tsinghua University, 2020
