@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an master student at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/), advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/). I obtained my bachelor degree at [CST@THU](http://www.cs.tsinghua.edu.cn/publish/csen/index.html).
+I am currently a master student at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/), advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/). I obtained my bachelor degree at [CST@THU](http://www.cs.tsinghua.edu.cn/publish/csen/index.html).
 
 My research interest lies in the Natural Language Processing, including interpretability of NLP models and model architectures.
 
