@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a master student at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and an incoming Ph.D. student advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). I obtained my bachelor degree at [CST@THU](http://www.cs.tsinghua.edu.cn/publish/csen/index.html).
+I am currently a master student at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and an incoming Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). I obtained my bachelor degree at [CST@THU](http://www.cs.tsinghua.edu.cn/publish/csen/index.html).
 
 My research interest lies in the embodied intelligence and large language models.
 
