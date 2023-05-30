@@ -20,7 +20,7 @@ Recent publications
 
 Service
 ======
-* Organizer of the first ECCV MVCS workshop
+* Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html), [CVPR 2023](https://mvcs-workshop.github.io/))
 * Reviewer of TIP, AACL
 
 Honors
