@@ -14,7 +14,7 @@ My research interest lies in large language models and cross-modality learning.
 
 Recent publications
 ======
-* **Qinhong Zhou**, Zonghan Yang, Peng Li, and Yang Liu. 2023. **Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models**. In Proceedings of ACL 2023 (oral presentation). [code](https://github.com/zhouqqhh/DBKD-PLM)
+* **Qinhong Zhou**, Zonghan Yang, Peng Li, and Yang Liu. 2023. **Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models**. In Proceedings of ACL 2023 (oral presentation). [arXiv](https://arxiv.org/abs/2306.08909), [code](https://github.com/zhouqqhh/DBKD-PLM)
 * Zhenfang Chen\*, **Qinhong Zhou**\*, Yikang Shen, Yining Hong, Hao Zhang, Chuang Gan. 2023. **See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-based Visual Reasoning**. [arXiv](https://arxiv.org/abs/2301.05226)
 * Zhiqing Sun, Yikang Shen, **Qinhong Zhou**, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan. 2023. **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**. [arXiv](https://arxiv.org/abs/2305.03047), [code](https://github.com/IBM/Dromedary)
 
