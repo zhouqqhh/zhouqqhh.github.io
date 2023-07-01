@@ -21,7 +21,7 @@ Recent publications
 Service
 ======
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html), [CVPR 2023](https://mvcs-workshop.github.io/))
-* Reviewer of TIP, AACL
+* Reviewer of AACL, IEEE TIP, and Trans Multimedia.
 
 Honors
 ======
