@@ -14,18 +14,18 @@ My research interest lies in large language models and cross-modality learning.
 
 Recent publications
 ======
-![DBKD](../images/dbkd.png)
-**Qinhong Zhou**, Zonghan Yang, Peng Li, and Yang Liu. 2023. **Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models**. ACL 2023 (Oral). [arXiv](https://arxiv.org/abs/2306.08909), [code](https://github.com/zhouqqhh/DBKD-PLM)
+<!-- ![DBKD](../images/dbkd.png) -->
+* **Qinhong Zhou**, Zonghan Yang, Peng Li, and Yang Liu. 2023. **Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models**. ACL 2023 (Oral). [arXiv](https://arxiv.org/abs/2306.08909), [code](https://github.com/zhouqqhh/DBKD-PLM)
 
-![VisualCoT](../images/visualCoT.png)
-Zhenfang Chen\*, **Qinhong Zhou**\*, Yikang Shen, Yining Hong, Hao Zhang, Chuang Gan. 2023. **See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-based Visual Reasoning**. [arXiv](https://arxiv.org/abs/2301.05226)
+<!-- ![VisualCoT](../images/visualCoT.png) -->
+* Zhenfang Chen\*, **Qinhong Zhou**\*, Yikang Shen, Yining Hong, Hao Zhang, Chuang Gan. 2023. **See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-based Visual Reasoning**. [arXiv](https://arxiv.org/abs/2301.05226)
 
-![Dromedary](../images/dromedary.png)
+<!-- ![Dromedary](../images/dromedary.png) -->
 
-Zhiqing Sun, Yikang Shen, **Qinhong Zhou**, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan. 2023. **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**. NeurIPS 2023 (Spotlight). [arXiv](https://arxiv.org/abs/2305.03047), [code](https://github.com/IBM/Dromedary)
+* Zhiqing Sun, Yikang Shen, **Qinhong Zhou**, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan. 2023. **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**. NeurIPS 2023 (Spotlight). [arXiv](https://arxiv.org/abs/2305.03047), [code](https://github.com/IBM/Dromedary)
 
-![CoLLM](../images/collm.jpg)
-Hongxin Zhang, Weihua Du, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan. 2023. **Building Cooperative Embodied Agents Modularly with Large Language Models**. [arXiv](https://arxiv.org/abs/2307.02485), [page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)
+<!-- ![CoLLM](../images/collm.jpg) -->
+* Hongxin Zhang, Weihua Du, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan. 2023. **Building Cooperative Embodied Agents Modularly with Large Language Models**. [arXiv](https://arxiv.org/abs/2307.02485), [page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)
 
 Service
 ======
