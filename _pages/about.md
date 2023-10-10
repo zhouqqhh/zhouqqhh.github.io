@@ -20,7 +20,7 @@ Recent publications
 ![VisualCoT](../images/visualCoT.png)
 Zhenfang Chen\*, **Qinhong Zhou**\*, Yikang Shen, Yining Hong, Hao Zhang, Chuang Gan. 2023. **See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-based Visual Reasoning**. [arXiv](https://arxiv.org/abs/2301.05226)
 
-<img src="../images/dromedary.png" alt= “” width="50%" height="50%">
+![Dromedary](../images/dromedary.png)
 
 Zhiqing Sun, Yikang Shen, **Qinhong Zhou**, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan. 2023. **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**. NeurIPS 2023 (Spotlight). [arXiv](https://arxiv.org/abs/2305.03047), [code](https://github.com/IBM/Dromedary)
 
