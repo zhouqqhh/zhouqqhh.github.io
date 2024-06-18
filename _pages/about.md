@@ -16,7 +16,7 @@ Recent publications
 ======
 
 ### HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments with Large Language Models
-<sub>**Qinhong Zhou***, Sunli Chen*, Yisong Wang, Haozhe Xu, Weihua Du, Hongxin Zhang, Yilun Du, Joshua B. Tenenbaum, Chuang Gan</sub>  
+<sub>**Qinhong Zhou**\*, Sunli Chen\*, Yisong Wang, Haozhe Xu, Weihua Du, Hongxin Zhang, Yilun Du, Joshua B. Tenenbaum, Chuang Gan</sub>  
 ICLR 2024, [arXiv](https://arxiv.org/abs/2401.12975), [code](https://github.com/UMass-Foundation-Model/HAZARD), [page](https://vis-www.cs.umass.edu/hazard/)
 
 ### Building Cooperative Embodied Agents Modularly with Large Language Models
@@ -28,7 +28,7 @@ ICLR 2024, [arXiv](https://arxiv.org/abs/2307.02485), [code](https://github.com/
 ICLR 2024, [arXiv](https://arxiv.org/abs/2310.05910), [code](https://github.com/IBM/SALMON)
 
 ### Visual Chain-of-Thought Prompting for Knowledge-based Visual Reasoning
-<sub>Zhenfang Chen*, **Qinhong Zhou***, Yikang Shen, Yining Hong, Zhiqing Sun, Dan Gutfreund, Chuang Gan</sub>  
+<sub>Zhenfang Chen\*, **Qinhong Zhou**\*, Yikang Shen, Yining Hong, Zhiqing Sun, Dan Gutfreund, Chuang Gan</sub>  
 AAAI 2024, [arXiv](https://arxiv.org/abs/2301.05226), [code](https://github.com/UMass-Foundation-Model/VisualCoT)
 
 ### Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
