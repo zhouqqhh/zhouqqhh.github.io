@@ -15,6 +15,8 @@ My research interest lies in embodied intelligence and large langauge models.
 Recent publications
 ======
 
+## Embodied Intelligence
+
 ### HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments with Large Language Models
 <sub>**Qinhong Zhou**\*, Sunli Chen\*, Yisong Wang, Haozhe Xu, Weihua Du, Hongxin Zhang, Yilun Du, Joshua B. Tenenbaum, Chuang Gan</sub>  
 ICLR 2024, [arXiv](https://arxiv.org/abs/2401.12975), [code](https://github.com/UMass-Foundation-Model/HAZARD), [page](https://vis-www.cs.umass.edu/hazard/)
@@ -22,6 +24,8 @@ ICLR 2024, [arXiv](https://arxiv.org/abs/2401.12975), [code](https://github.com/
 ### Building Cooperative Embodied Agents Modularly with Large Language Models
 <sub>Hongxin Zhang*, Weihua Du*, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin</sub>  
 ICLR 2024, [arXiv](https://arxiv.org/abs/2307.02485), [code](https://github.com/UMass-Foundation-Model/Co-LLM-Agents/), [page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)
+
+## Large Language Models
 
 ### SALMON: Self-Alignment with Principle-Following Reward Models
 <sub>Zhiqing Sun, Yikang Shen, Hongxin Zhang, **Qinhong Zhou**, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan</sub>  
