@@ -8,32 +8,46 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an incoming Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). Before that, I am obtained my master degree at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and my bachelor degree at [CST@THU](https://www.cs.tsinghua.edu.cn/csen/).
+I am currently a first-year Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). Before that, I am obtained my master degree at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and my bachelor degree at [CST@THU](https://www.cs.tsinghua.edu.cn/csen/).
 
-My research interest lies in large language models and cross-modality learning.
+My research interest lies in embodied intelligence and large langauge models.
 
 Recent publications
 ======
-<!-- ![DBKD](../images/dbkd.png) -->
-* **Qinhong Zhou**, Zonghan Yang, Peng Li, and Yang Liu. 2023. **Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models**. ACL 2023 (Oral). [arXiv](https://arxiv.org/abs/2306.08909), [code](https://github.com/zhouqqhh/DBKD-PLM)
 
-<!-- ![VisualCoT](../images/visualCoT.png) -->
-* Zhenfang Chen\*, **Qinhong Zhou**\*, Yikang Shen, Yining Hong, Hao Zhang, Chuang Gan. 2023. **See, Think, Confirm: Interactive Prompting Between Vision and Language Models for Knowledge-based Visual Reasoning**. [arXiv](https://arxiv.org/abs/2301.05226)
+### HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments with Large Language Models
+<sub>**Qinhong Zhou***, Sunli Chen*, Yisong Wang, Haozhe Xu, Weihua Du, Hongxin Zhang, Yilun Du, Joshua B. Tenenbaum, Chuang Gan</sub>  
+ICLR 2024, [arXiv](https://arxiv.org/abs/2401.12975), [code](https://github.com/UMass-Foundation-Model/HAZARD), [page](https://vis-www.cs.umass.edu/hazard/)
 
-<!-- ![Dromedary](../images/dromedary.png) -->
+### Building Cooperative Embodied Agents Modularly with Large Language Models
+<sub>Hongxin Zhang*, Weihua Du*, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin</sub>  
+ICLR 2024, [arXiv](https://arxiv.org/abs/2307.02485), [code](https://github.com/UMass-Foundation-Model/Co-LLM-Agents/), [page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)
 
-* Zhiqing Sun, Yikang Shen, **Qinhong Zhou**, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan. 2023. **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**. NeurIPS 2023 (Spotlight). [arXiv](https://arxiv.org/abs/2305.03047), [code](https://github.com/IBM/Dromedary)
+### SALMON: Self-Alignment with Principle-Following Reward Models
+<sub>Zhiqing Sun, Yikang Shen, Hongxin Zhang, **Qinhong Zhou**, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan</sub>  
+ICLR 2024, [arXiv](https://arxiv.org/abs/2310.05910), [code](https://github.com/IBM/SALMON)
 
-<!-- ![CoLLM](../images/collm.jpg) -->
-* Hongxin Zhang, Weihua Du, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan. 2023. **Building Cooperative Embodied Agents Modularly with Large Language Models**. [arXiv](https://arxiv.org/abs/2307.02485), [page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)
+### Visual Chain-of-Thought Prompting for Knowledge-based Visual Reasoning
+<sub>Zhenfang Chen*, **Qinhong Zhou***, Yikang Shen, Yining Hong, Zhiqing Sun, Dan Gutfreund, Chuang Gan</sub>  
+AAAI 2024, [arXiv](https://arxiv.org/abs/2301.05226), [code](https://github.com/UMass-Foundation-Model/VisualCoT)
+
+### Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
+<sub>Zhiqing Sun, Yikang Shen, **Qinhong Zhou**, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan</sub>  
+NeurIPS 2023, [arXiv](https://arxiv.org/abs/2305.03047), [code](https://github.com/IBM/Dromedary)
+
+### Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models
+<sub>**Qinhong Zhou**, Zonghan Yang, Peng Li, Yang Liu</sub>  
+ACL 2023, [arXiv](https://arxiv.org/abs/2306.08909), [code](https://github.com/THUNLP-MT/DBKD-PLM)
+
+
 
 Service
 ======
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html), [CVPR 2023](https://mvcs-workshop.github.io/))
-* Reviewer of AACL, IEEE TIP, and Trans Multimedia.
+* Reviewer of AAAI, AACL, EMNLP, ICML, IJCAI, IEEE TIP, and Trans Multimedia.
 
-Honors
+<!-- Honors
 ======
 * Scholarship of Overall Excellence, Tsinghua University, 2017
 * Scholarship of Academic Excellence, Tsinghua University, 2017
-* Excellent Graduate (Bachelor), Department of Computer Science and Technology, Tsinghua University, 2020
+* Excellent Graduate (Bachelor), Department of Computer Science and Technology, Tsinghua University, 2020 -->
