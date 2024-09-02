@@ -10,7 +10,7 @@ redirect_from:
 
 I am currently a first-year Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). Before that, I am obtained my master degree at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and my bachelor degree at [CST@THU](https://www.cs.tsinghua.edu.cn/csen/).
 
-My research interests focus on embodied AI and foundation models. Specifically, I aim to harness the power of foundation models to build realistic world simulators that address the data bottlenecks in embodied AI. These simulations can, in turn, be used to train more powerful embodied foundation models, ultimately enabling artificial intelligence to operate more effectively in the real physical world.
+My research interests focus on embodied AI and foundation models. Specifically, I aim to harness the power of foundation models to build realistic world simulators that address the data bottlenecks in embodied AI. These simulations constrained by physical laws can, in turn, be used to train more powerful embodied foundation models, ultimately enabling artificial intelligence to operate more effectively in the real physical world.
 
 *If we can create simulators that mirror the real world with high fidelity, then we probably already be living in a virtual world ourselves.*
 
