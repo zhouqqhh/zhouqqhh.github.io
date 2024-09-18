@@ -52,8 +52,8 @@ Service
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html), [CVPR 2023](https://mvcs-workshop.github.io/))
 * Reviewer of AAAI, AACL, EMNLP, ICML, IJCAI, IEEE TIP, and Trans Multimedia.
 
-<!-- Honors
+Honors
 ======
-* Scholarship of Overall Excellence, Tsinghua University, 2017
-* Scholarship of Academic Excellence, Tsinghua University, 2017
-* Excellent Graduate (Bachelor), Department of Computer Science and Technology, Tsinghua University, 2020 -->
+* Scholarship of Overall Excellence, Tsinghua University
+* Scholarship of Academic Excellence, Tsinghua University
+* Excellent Graduate, Department of Computer Science and Technology, Tsinghua University
