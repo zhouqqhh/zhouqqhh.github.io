@@ -50,7 +50,7 @@ ACL 2023, [arXiv](https://arxiv.org/abs/2306.08909), [code](https://github.com/T
 Service
 ======
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html), [CVPR 2023](https://mvcs-workshop.github.io/))
-* Reviewer of AAAI, AACL, EMNLP, ICML, IJCAI, IEEE TIP, and Trans Multimedia.
+* Reviewer of ICLR, AAAI, ICML, IJCV, IEEE TIP, AACL, and IEEE Trans Multimedia.
 
 Honors
 ======
