@@ -12,7 +12,7 @@ I am currently a first-year Ph.D. student at UMass Amherst advised by Prof. [Chu
 
 My research interests focus on embodied AI and foundation models. Specifically, I aim to harness the power of foundation models to build realistic world simulators that address the data bottlenecks in embodied AI. These simulations constrained by physical laws can, in turn, be used to train more powerful embodied foundation models, ultimately enabling artificial intelligence to operate more effectively in the real physical world.
 
-*If we can create simulators that mirror the real world with high fidelity, then we probably already be living in a virtual world ourselves.*
+<!-- *If we can create simulators that mirror the real world with high fidelity, then we probably already be living in a virtual world ourselves.* -->
 
 Recent publications
 ======
