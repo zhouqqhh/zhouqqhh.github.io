@@ -14,6 +14,7 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 
 
 # 🔥 News
+- **Jun 2025**: 🔥🔥 We released [Virtual Community](https://virtual-community-ai.github.io/)!.
 - **Feb 2025**: I will give a talk on my recent project *Virtual Community* at [NYC Vision Day 2025](https://cs.nyu.edu/~fouhey/NYCVision2025/).
 - **Jun 2024**: I will give a talk on embodied decision-making in dynamically changing environments at [zhidx](https://course.zhidx.com/teacher/detail/NmJkNTgzZmI2ZjdlNzEyOTgyZDM=).
 - **Jun 2024**: I will join the panel discussion at [The Fifth Embodied AI Workshop at CVPR 2024](https://embodied-ai.org/cvpr2024/).
@@ -26,6 +27,22 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 <br>
 
 # 📝 Recent Publications 
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='{{ site.baseurl }}/images/vico.png' alt="sym" width="300" height="200">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Virtual Community: An Open World for Humans, Robots, and Society]()
+
+  **Qinhong Zhou***, Hongxin Zhang*, Xiangye Lin*, Zheyuan Zhang*, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan
+
+  [paper](https://virtual-community-ai.github.io/paper.pdf), [code](umass-Embodied-AGI/virtual-community), [page](https://virtual-community-ai.github.io/)
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -136,7 +153,7 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 Service
 ======
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html), [CVPR 2023](https://mvcs-workshop.github.io/))
-* Reviewer of ICLR, CVPR, NeurIPS, ICML, AAAI, IJCV, IEEE TIP, AACL, and IEEE Trans Multimedia.
+* Reviewer of ICLR, NeurIPS, CVPR, AAAI, ICML, IJCV, IEEE TIP, AACL, and IEEE Trans Multimedia.
 
 Experience
 ======
