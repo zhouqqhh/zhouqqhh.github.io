@@ -38,7 +38,7 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 
   [Virtual Community: An Open World for Humans, Robots, and Society]()
 
-  **Qinhong Zhou***, Hongxin Zhang*, Xiangye Lin*, Zheyuan Zhang*, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan
+  **Qinhong Zhou**\*, Hongxin Zhang\*, Xiangye Lin\*, Zheyuan Zhang\*, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan
 
   [paper](https://virtual-community-ai.github.io/paper.pdf), [code](umass-Embodied-AGI/virtual-community), [page](https://virtual-community-ai.github.io/)
   </div>
