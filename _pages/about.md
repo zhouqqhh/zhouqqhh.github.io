@@ -153,7 +153,9 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 Service
 ======
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html), [CVPR 2023](https://mvcs-workshop.github.io/))
-* Reviewer of ICLR, NeurIPS, CVPR, AAAI, ICML, IJCV, IEEE TIP, AACL, and IEEE Trans Multimedia.
+* Challenge organizer of the Embodied AI workshop ([CVPR 2025](https://embodied-ai.org/cvpr2025/), [CVPR 2024](https://embodied-ai.org/cvpr2024/))
+* Reviewer of ICLR, NeurIPS, CVPR, AAAI, ICML, IJCV, IEEE TIP, AACL, and IEEE Trans Multimedia
+* Program Committee of AAAI.
 
 Experience
 ======
