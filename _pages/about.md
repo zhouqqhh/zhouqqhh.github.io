@@ -159,6 +159,6 @@ Service
 
 Experience
 ======
-- **Mar 2024 - Jul 2024**: Research intern at PKU-Agibot Lab.
-- **Sep 2023 - Mar 2024**: Research intern at ModelBest Inc.
-- **Feb 2023 - Jun 2023**: Research intern at Baidu Vision Group.
+- **Mar 2024 - Jul 2024**: Research intern at [PKU-Agibot](https://zsdonghao.github.io/) Lab.
+- **Sep 2023 - Mar 2024**: Research intern at [ModelBest](https://huggingface.co/openbmb) Inc.
+- **Feb 2023 - Jun 2023**: Research intern at [Baidu Vision Group](https://research.baidu.com/).
