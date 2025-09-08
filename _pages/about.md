@@ -40,7 +40,9 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 
   **Qinhong Zhou**\*, Hongxin Zhang\*, Xiangye Lin\*, Zheyuan Zhang\*, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan
 
-  [paper](https://virtual-community-ai.github.io/paper.pdf), [code](umass-Embodied-AGI/virtual-community), [page](https://virtual-community-ai.github.io/)
+  [paper](https://arxiv.org/abs/2508.14893), [code](umass-Embodied-AGI/virtual-community), [page](https://virtual-community-ai.github.io/)
+
+  Media: [X](https://x.com/gan_chuang/status/1936127749925527919), [TechBeat](https://www.techbeat.net/talk-info?id=994&sessionid=), [新智元](https://mp.weixin.qq.com/s/zICxQp2DYXXJ6u4KJH-OQw), [Z Tech](https://www.sohu.com/a/908759862_122063396), [机器之心](https://mp.weixin.qq.com/s/ycuftcoJ60ua4vv3AtKuUA), [青稞AI](https://qingkeai.online/archives/xysVAAMV)
   </div>
 </div>
 
