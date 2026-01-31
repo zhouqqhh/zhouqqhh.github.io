@@ -31,6 +31,7 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge">ICLR 2026</div>
       <img src='{{ site.baseurl }}/images/vico.png' alt="sym" width="300" height="200">
     </div>
   </div>
@@ -46,6 +47,24 @@ My research focuses on the alignment and cooperation of AI agents with both huma
   </div>
 </div>
 
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ICLR 2025 Workshop MAS</div>
+      <img src='{{ site.baseurl }}/images/teaser/ella.png' alt="sym" width="300" height="200">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Ella: Embodied Social Agents with Lifelong Memory]()
+
+  Hongxin Zhang*, Zheyuan Zhang*, Zeyuan Wang*, Zunzhe Zhang, Lixing Fang, **Qinhong Zhou**, Chuang Gan
+
+  [arXiv](https://arxiv.org/abs/2506.24019), [code](https://github.com/UMass-Embodied-AGI/Ella), [page]([https://vis-www.cs.umass.edu/Co-LLM-Agents/](https://umass-embodied-agi.github.io/Ella/))
+  </div>
+</div>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -57,7 +76,7 @@ My research focuses on the alignment and cooperation of AI agents with both huma
 
   [Building Cooperative Embodied Agents Modularly with Large Language Models]()
 
-  Hongxin Zhang*, Weihua Du*, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin
+  Hongxin Zhang*, Weihua Du*, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu
 
   [arXiv](https://arxiv.org/abs/2307.02485), [code](https://github.com/UMass-Foundation-Model/Co-LLM-Agents/), [page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)
   </div>
