@@ -10,8 +10,7 @@ redirect_from:
 
 I am currently a Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). Before that, I am obtained my master degree at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and my bachelor degree at [CST@THU](https://www.cs.tsinghua.edu.cn/csen/).
 
-My research focuses on the alignment and cooperation of AI agents with both humans and other agents, as well as AI's decision-making capabilities. It covers areas such as embodied AI simulation, multi-agent/model cooperation, LLM alignment, and LLM knowledge distillation. My goal is to enable AI systems to align with human values in the physical world, facilitating better collaboration between humans and AI, as well as cooperation among AI agents.
-
+My current research focuses on building world models with the support of synthetic data, with a particular emphasis on modeling multi-agent interactions and coordination.
 
 # 🔥 News
 - **Jun 2025**: 🔥🔥 We released [Virtual Community](https://virtual-community-ai.github.io/)!.
