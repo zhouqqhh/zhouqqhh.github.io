@@ -10,9 +10,10 @@ redirect_from:
 
 I am currently a Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). Before that, I am obtained my master degree at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and my bachelor degree at [CST@THU](https://www.cs.tsinghua.edu.cn/csen/).
 
-My current research focuses on building world models with the support of synthetic data, with a particular emphasis on modeling multi-agent interactions and coordination.
+My current research focuses on embodied agentic frameworks and multi-agent systems.
 
 # 🔥 News
+- **Apr 2026**: I gave an invited talk, *Building Embodied Open-World Simulators*, at Rutgers University.
 - **Jun 2025**: 🔥🔥 We released [Virtual Community](https://virtual-community-ai.github.io/)!.
 - **Feb 2025**: I will give a talk on my recent project *Virtual Community* at [NYC Vision Day 2025](https://cs.nyu.edu/~fouhey/NYCVision2025/).
 - **Jun 2024**: I will give a talk on embodied decision-making in dynamically changing environments at [zhidx](https://course.zhidx.com/teacher/detail/NmJkNTgzZmI2ZjdlNzEyOTgyZDM=).
@@ -26,6 +27,22 @@ My current research focuses on building world models with the support of synthet
 <br>
 
 # 📝 Recent Publications 
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ICML 2026</div>
+      <img src='{{ site.baseurl }}/images/teaser/llawco.png' alt="LLawCo benchmark overview" width="300" height="200" style="object-position: center;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior]()
+
+  **Qinhong Zhou**, Chuang Gan, Anoop Cherian
+
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -50,7 +67,6 @@ My current research focuses on building world models with the support of synthet
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ICLR 2025 Workshop MAS</div>
       <img src='{{ site.baseurl }}/images/teaser/ella.png' alt="sym" width="300" height="200">
     </div>
   </div>
@@ -174,11 +190,13 @@ Service
 ======
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html) as the host, [CVPR 2023](https://mvcs-workshop.github.io/))
 * Challenge organizer of the Embodied AI workshop ([CVPR 2025](https://embodied-ai.org/cvpr2025/), [CVPR 2024](https://embodied-ai.org/cvpr2024/))
-* Reviewer of ICLR, NeurIPS, CVPR, AAAI, ICML, IJCV, IEEE TIP, AACL, and IEEE Trans Multimedia
+* Reviewer of ICML, ICLR, NeurIPS, CVPR, ECCV, AAAI, IJCV, IEEE TIP, IEEE MM, etc.
 * Program Committee of AAAI.
 
 Experience
 ======
+- **May 2026 - Sep 2026**: Research Topic: agentic reasoning at [Google](https://research.google/).
+- **May 2025 - Aug 2025**: Research Topic: embodied multi-agent at [MERL](https://www.merl.com/).
 - **Mar 2024 - Jul 2024**: Research intern at [PKU-Agibot](https://zsdonghao.github.io/) Lab.
 - **Sep 2023 - Mar 2024**: Research intern at [ModelBest](https://huggingface.co/openbmb) Inc.
 - **Feb 2023 - Jun 2023**: Research intern at [Baidu Vision Group](https://research.baidu.com/).
