@@ -190,7 +190,7 @@ Service
 ======
 * Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html) as the host, [CVPR 2023](https://mvcs-workshop.github.io/))
 * Challenge organizer of the Embodied AI workshop ([CVPR 2025](https://embodied-ai.org/cvpr2025/), [CVPR 2024](https://embodied-ai.org/cvpr2024/))
-* Reviewer of ICML, ICLR, NeurIPS, CVPR, ECCV, AAAI, IJCV, IEEE TIP, IEEE MM, etc.
+* Reviewer of ICML (silver reviewer), ICLR, NeurIPS, CVPR, ECCV, AAAI, IJCV, IEEE TIP, IEEE MM, etc.
 * Program Committee of AAAI.
 
 Experience
