@@ -14,6 +14,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 
 # 🔥 News
 - **Apr 2026**: I gave an invited talk, *Building Embodied Open-World Simulators*, at Rutgers University.
+- **Sept 2025**: I reached 1,000 citations.
 - **Jun 2025**: 🔥🔥 We released [Virtual Community](https://virtual-community-ai.github.io/)!.
 - **Feb 2025**: I will give a talk on my recent project *Virtual Community* at [NYC Vision Day 2025](https://cs.nyu.edu/~fouhey/NYCVision2025/).
 - **Jun 2024**: I will give a talk on embodied decision-making in dynamically changing environments at [zhidx](https://course.zhidx.com/teacher/detail/NmJkNTgzZmI2ZjdlNzEyOTgyZDM=).
