@@ -242,7 +242,7 @@ Experience
 
 <div class="exp-row">
 <div class="exp-visual">
-<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="10" height="10" alt="OpenBMB / ModelBest logo"></span>
+<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="34" height="34" alt="OpenBMB / ModelBest logo"></span>
 </div>
 <div class="exp-text" markdown="1">
 

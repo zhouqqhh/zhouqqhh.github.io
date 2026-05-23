@@ -111,8 +111,8 @@ h1:before, .anchor:before {
 }
 
 /* Employer marks — slots clamp SVG/png intrinsic width (Safari + flex min-content) */
-$exp_logo_h: 10px;
-$exp_logo_h_dual: 24px; /* Google/DeepMind, PKU/AgiBot paired rows (~¼ prior 96px) */
+$exp_logo_h: 34px;
+$exp_logo_h_dual: 82px; /* Google/DeepMind, PKU/AgiBot paired rows */
 $exp_visual_w: 11.75rem;
 
 .page .page__content .experience-list {
