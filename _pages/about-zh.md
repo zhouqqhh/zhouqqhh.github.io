@@ -200,7 +200,7 @@ author_profile: true
 
 <div class="exp-row">
 <div class="exp-visual">
-<div class="exp-logos exp-logos--lg exp-logos--stack">
+<div class="exp-logos exp-logos--lg">
 <span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/google-wordmark.svg" width="272" height="92" alt="Google logo"></span>
 <span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/deepmind-symbol.svg" width="118" height="119" alt="DeepMind logo"></span>
 </div>
@@ -225,7 +225,7 @@ author_profile: true
 
 <div class="exp-row">
 <div class="exp-visual">
-<div class="exp-logos exp-logos--lg exp-logos--stack">
+<div class="exp-logos exp-logos--lg">
 <span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/peking-university-seal.svg" width="146" height="147" alt="Peking University logo"></span>
 <span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/agibot.png" width="320" height="320" alt="AgiBot logo"></span>
 </div>
@@ -239,7 +239,7 @@ author_profile: true
 
 <div class="exp-row">
 <div class="exp-visual">
-<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="38" height="38" alt="OpenBMB / ModelBest logo"></span>
+<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="10" height="10" alt="OpenBMB / ModelBest logo"></span>
 </div>
 <div class="exp-text" markdown="1">
 

@@ -111,9 +111,9 @@ h1:before, .anchor:before {
 }
 
 /* Employer marks — slots clamp SVG/png intrinsic width (Safari + flex min-content) */
-$exp_logo_h: 38px;
-$exp_logo_h_dual: 96px; /* ~2× paired rows; stacked below so wordmarks stay sharp */
-$exp_visual_w: 20rem;
+$exp_logo_h: 10px;
+$exp_logo_h_dual: 24px; /* Google/DeepMind, PKU/AgiBot paired rows (~¼ prior 96px) */
+$exp_visual_w: 11.75rem;
 
 .page .page__content .experience-list {
   margin: 0.35rem 0 0;
@@ -229,24 +229,14 @@ $exp_visual_w: 20rem;
     }
   }
 
-  /* Large dual marks: stacked (side-by-side would cap width ~½ gutter and shrink height) */
-  .exp-logos--lg.exp-logos--stack {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.4rem;
+  /* Paired rows: slightly taller marks than singles, horizontal layout */
+  .exp-logos--lg > .exp-brand-slot {
+    height: #{$exp_logo_h_dual};
+  }
 
-    > .exp-brand-slot {
-      flex: 0 0 auto;
-      width: 100%;
-      max-width: 100%;
-      height: #{$exp_logo_h_dual};
-      justify-content: center;
-    }
-
-    img.exp-logo {
-      height: #{$exp_logo_h_dual} !important;
-      max-height: #{$exp_logo_h_dual} !important;
-    }
+  .exp-logos--lg img.exp-logo {
+    height: #{$exp_logo_h_dual} !important;
+    max-height: #{$exp_logo_h_dual} !important;
   }
 
   img.exp-logo--square {
@@ -359,17 +349,9 @@ $exp_visual_w: 20rem;
     }
   }
 
-  .exp-logos--lg.exp-logos--stack {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.4rem;
-
-    img {
-      flex: 0 1 auto !important;
-      max-width: 100% !important;
-      height: #{$exp_logo_h_dual} !important;
-      max-height: #{$exp_logo_h_dual} !important;
-    }
+  .exp-logos--lg img {
+    height: #{$exp_logo_h_dual} !important;
+    max-height: #{$exp_logo_h_dual} !important;
   }
 
   img.exp-logo--square {
