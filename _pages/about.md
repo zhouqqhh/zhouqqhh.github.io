@@ -204,8 +204,8 @@ Experience
 <div class="exp-row">
 <div class="exp-visual">
 <div class="exp-logos">
-<img src="{{ site.baseurl }}/images/logos/google-wordmark.svg" alt="Google logo">
-<img src="{{ site.baseurl }}/images/logos/deepmind-symbol.svg" alt="DeepMind logo">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/google-wordmark.svg" width="272" height="92" alt="Google logo"></span>
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/deepmind-symbol.svg" width="118" height="119" alt="DeepMind logo"></span>
 </div>
 </div>
 <div class="exp-text" markdown="1">
@@ -217,7 +217,7 @@ Experience
 
 <div class="exp-row">
 <div class="exp-visual">
-<img class="exp-logo" src="{{ site.baseurl }}/images/logos/mitsubishi-electric.svg" alt="Mitsubishi Electric logo (MERL)">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/mitsubishi-electric.svg" width="794" height="242" alt="Mitsubishi Electric logo (MERL)"></span>
 </div>
 <div class="exp-text" markdown="1">
 
@@ -229,8 +229,8 @@ Experience
 <div class="exp-row">
 <div class="exp-visual">
 <div class="exp-logos">
-<img src="{{ site.baseurl }}/images/logos/peking-university-seal.svg" alt="Peking University logo">
-<img src="{{ site.baseurl }}/images/logos/agibot.png" alt="AgiBot logo">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/peking-university-seal.svg" width="146" height="147" alt="Peking University logo"></span>
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/agibot.png" width="320" height="320" alt="AgiBot logo"></span>
 </div>
 </div>
 <div class="exp-text" markdown="1">
@@ -242,7 +242,7 @@ Experience
 
 <div class="exp-row">
 <div class="exp-visual">
-<img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" alt="OpenBMB / ModelBest logo">
+<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="38" height="38" alt="OpenBMB / ModelBest logo"></span>
 </div>
 <div class="exp-text" markdown="1">
 
@@ -253,7 +253,7 @@ Experience
 
 <div class="exp-row">
 <div class="exp-visual">
-<img class="exp-logo" src="{{ site.baseurl }}/images/logos/baidu-colored.svg" alt="Baidu logo">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/baidu-colored.svg" width="231" height="79" alt="Baidu logo"></span>
 </div>
 <div class="exp-text" markdown="1">
 

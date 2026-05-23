@@ -110,8 +110,9 @@ h1:before, .anchor:before {
     background-color: #00369f;
 }
 
-/* Employer marks in Experience — bounded logo gutter + stable img sizing (avoid SVG/grid blowout) */
-$exp_logo_h: 26px;
+/* Employer marks — slots clamp SVG/png intrinsic width (Safari + flex min-content) */
+$exp_logo_h: 38px;
+$exp_visual_w: 11.75rem;
 
 .page .page__content .experience-list {
   margin: 0.35rem 0 0;
@@ -138,17 +139,101 @@ $exp_logo_h: 26px;
   }
 
   .exp-visual {
-    flex: 0 0 10.75rem;
-    width: 10.75rem;
-    max-width: 10.75rem;
+    flex: 0 0 #{$exp_visual_w};
+    width: #{$exp_visual_w};
+    max-width: #{$exp_visual_w};
+    box-sizing: border-box;
     min-width: 0;
+    padding: 0 0.35rem;
     overflow: hidden;
+    contain: layout style;
+
+    /* Column strip: horizontally center lone logos; `.exp-logos` overrides with align-self stretch */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0;
+    min-height: #{$exp_logo_h};
+  }
+
+  .exp-brand-slot {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-width: 0;
+    max-width: 100%;
+    height: #{$exp_logo_h};
+    overflow: hidden;
+    line-height: 0;
+
+    &--icon {
+      flex: 0 0 #{$exp_logo_h};
+      width: #{$exp_logo_h};
+      max-width: #{$exp_logo_h};
+      justify-content: center;
+    }
+  }
+
+  .exp-visual > .exp-brand-slot:first-child:last-child {
+    flex: 0 1 auto;
+    max-width: 100%;
+  }
+
+  img.exp-logo {
+    box-sizing: content-box !important;
+    flex: 0 0 auto;
+    align-self: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+
+    height: #{$exp_logo_h} !important;
+    max-height: #{$exp_logo_h} !important;
+    width: auto !important;
+
+    display: block !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+  }
+
+  .exp-logos {
+    /* Full gutter width so 50%-based caps resolve from the column, not shrink-wrap */
+    align-self: stretch;
+
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 0.35rem;
-    min-height: #{$exp_logo_h};
+    flex-wrap: nowrap;
+
+    > .exp-brand-slot {
+      flex: 0 1 auto;
+      width: auto;
+      max-width: calc(50% - 0.175rem);
+      min-width: 0;
+      justify-content: center;
+    }
+  }
+
+  img.exp-logo--square {
+    width: #{$exp_logo_h} !important;
+    max-width: #{$exp_logo_h} !important;
+    height: #{$exp_logo_h} !important;
+    max-height: #{$exp_logo_h} !important;
+    object-fit: contain !important;
   }
 
   .exp-text {
@@ -170,62 +255,6 @@ $exp_logo_h: 26px;
     }
   }
 
-  img.exp-logo {
-    box-sizing: content-box !important;
-    flex: none;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    box-shadow: none !important;
-
-    height: #{$exp_logo_h} !important;
-    max-height: #{$exp_logo_h} !important;
-    width: auto !important;
-
-    display: inline-block !important;
-    vertical-align: middle !important;
-    max-width: 100% !important;
-    object-fit: contain !important;
-  }
-
-  .exp-logos {
-    flex: none;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 0.35rem;
-    flex-wrap: nowrap;
-    min-width: 0;
-
-    img {
-      box-sizing: content-box !important;
-      flex: 1 1 auto;
-      min-width: 0;
-      margin: 0 !important;
-      padding: 0 !important;
-      border: 0 !important;
-      box-shadow: none !important;
-
-      height: #{$exp_logo_h} !important;
-      max-height: #{$exp_logo_h} !important;
-      width: auto !important;
-
-      display: inline-block !important;
-      vertical-align: middle !important;
-
-      max-width: calc(50% - 0.2rem) !important;
-      object-fit: contain !important;
-    }
-  }
-
-  img.exp-logo--square {
-    width: #{$exp_logo_h} !important;
-    max-width: #{$exp_logo_h} !important;
-    height: #{$exp_logo_h} !important;
-    max-height: #{$exp_logo_h} !important;
-    object-fit: contain !important;
-  }
-
   @include breakpoint(max-width $small) {
     > .exp-row {
       flex-wrap: wrap;
@@ -241,7 +270,7 @@ $exp_logo_h: 26px;
   }
 }
 
-/* Fallback if reused without `.page .page__content` */
+/* Fallback: un-slotted imgs (legacy) */
 .experience-list > .exp-row {
   display: flex;
   flex-wrap: nowrap;
@@ -249,25 +278,71 @@ $exp_logo_h: 26px;
   gap: 1rem;
 
   .exp-visual {
-    flex: 0 0 10.75rem;
-    width: 10.75rem;
-    max-width: 10.75rem;
+    flex: 0 0 #{$exp_visual_w};
+    width: #{$exp_visual_w};
+    max-width: #{$exp_visual_w};
     min-width: 0;
+    box-sizing: border-box;
+    padding: 0 0.35rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  img.exp-logo,
-  .exp-logos img {
+  .exp-visual .exp-logos {
+    align-self: stretch;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  img.exp-logo {
+    box-sizing: content-box !important;
     height: #{$exp_logo_h} !important;
     max-height: #{$exp_logo_h} !important;
     width: auto !important;
-    object-fit: contain !important;
     max-width: 100% !important;
-    box-sizing: content-box !important;
+    display: block !important;
+    object-fit: contain !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
   }
 
-  .exp-logos img {
-    max-width: calc(50% - 0.2rem) !important;
+  .exp-logos {
+    flex: 1 1 auto;
+    min-width: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+
+    img {
+      box-sizing: content-box !important;
+      flex: 0 1 calc(50% - 0.2rem) !important;
+      max-width: calc(50% - 0.2rem) !important;
+      min-width: 0;
+      height: #{$exp_logo_h} !important;
+      max-height: #{$exp_logo_h} !important;
+      width: auto !important;
+      display: block !important;
+      object-fit: contain !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+      box-shadow: none !important;
+    }
+  }
+
+  img.exp-logo--square {
+    width: #{$exp_logo_h} !important;
+    max-width: #{$exp_logo_h} !important;
+    height: #{$exp_logo_h} !important;
+    max-height: #{$exp_logo_h} !important;
   }
 }
 
