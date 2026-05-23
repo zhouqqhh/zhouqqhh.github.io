@@ -1,0 +1,14 @@
+{% assign lang_en_url = include.en_url | default: '/' %}
+{% assign lang_zh_url = include.zh_url | default: '/zh/' %}
+{% assign cur = page.lang | default: 'en' %}
+<nav class="lang-switch" aria-label="Language">
+  {% if cur == 'zh' %}
+    <a href="{{ lang_en_url | relative_url }}" hreflang="en">English</a>
+    <span class="lang-switch__sep" aria-hidden="true"> · </span>
+    <span class="lang-switch__current">中文</span>
+  {% else %}
+    <span class="lang-switch__current">English</span>
+    <span class="lang-switch__sep" aria-hidden="true"> · </span>
+    <a href="{{ lang_zh_url | relative_url }}" hreflang="zh-Hans">中文</a>
+  {% endif %}
+</nav>

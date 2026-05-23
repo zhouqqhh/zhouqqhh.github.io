@@ -1,36 +1,33 @@
 ---
-permalink: /
+permalink: /zh/
 title: ""
-excerpt: "About me"
-lang: en
+excerpt: "周沁泓（Qinhong Zhou）主页"
+lang: zh
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-{% include lang-switch.html zh_url='/zh/' %}
+{% include lang-switch.html en_url='/' %}
 
-I am currently a Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). Before that, I am obtained my master degree at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and my bachelor degree at [CST@THU](https://www.cs.tsinghua.edu.cn/csen/).
+我目前是麻省大学阿默斯特分校（UMass Amherst）的博士生，师从 [淦创教授](https://embodied-agi.cs.umass.edu/)。在此之前，我在[清华大学计算机科学与技术系](https://www.cs.tsinghua.edu.cn/csen/)取得本科与硕士学位，导师为 [刘洋教授](http://nlp.csai.tsinghua.edu.cn/~ly/)（[清华大学 自然语言处理与社会计算实验室](http://nlp.csai.tsinghua.edu.cn/)）。
 
-My current research focuses on embodied agentic frameworks and multi-agent systems.
+我目前的研究聚焦于具身智能体框架（embodied agentic frameworks）和多智能体（multi-agent）系统。
 
-# 🔥 News
-- **Apr 2026**: I gave an invited talk, *Building Embodied Open-World Simulators*, at Rutgers University.
-- **Sep 2025**: I reached 1,000 citations.
-- **Jun 2025**: 🔥🔥 We released [Virtual Community](https://virtual-community-ai.github.io/)!.
-- **Feb 2025**: I will give a talk on my recent project *Virtual Community* at [NYC Vision Day 2025](https://cs.nyu.edu/~fouhey/NYCVision2025/).
-- **Jun 2024**: I will give a talk on embodied decision-making in dynamically changing environments at [zhidx](https://course.zhidx.com/teacher/detail/NmJkNTgzZmI2ZjdlNzEyOTgyZDM=).
-- **Jun 2024**: I will join the panel discussion at [The Fifth Embodied AI Workshop at CVPR 2024](https://embodied-ai.org/cvpr2024/).
-- **May 2024**: I will be presenting [SALMON](https://github.com/IBM/SALMON) and [HAZARD](https://github.com/UMass-Embodied-AGI/HAZARD) at ICLR 2024.
-- **Jul 2023**: I will deliver an oral presentation on [DBKD-PLM](https://github.com/THUNLP-MT/DBKD-PLM) at ACL 2023.
-- **Jun 2023**: Our team organized [the second MVCS workshop](https://mvcs-workshop.github.io/) at CVPR 2023.
-- **Jun 2023**: I graduated from Tsinghua University again! It was a wonderful journey with the [THU-NLP group](https://nlp.csai.tsinghua.edu.cn/).
-- **Oct 2022**: Our team organized [the first MVCS workshop](https://mvcs-workshop.github.io/old.html) at ECCV 2022, where I hosted the event.
+# 🔥 动态
+- **2026年4月**：受邀在罗格斯大学（Rutgers University）汇报，主题为 *Building Embodied Open-World Simulators*。
+- **2025年9月**：谷歌学术总引用突破 1000 次。
+- **2025年6月**：我们发布了 [Virtual Community](https://virtual-community-ai.github.io/)！。
+- **2025年2月**：我将于 [纽约视觉日 NYC Vision Day 2025](https://cs.nyu.edu/~fouhey/NYCVision2025/) 介绍项目 *Virtual Community*。
+- **2024年6月**：应邀在 [智东西](https://course.zhidx.com/teacher/detail/NmJkNTgzZmI2ZjdlNzEyOTgyZDM=)分享关于动态开放环境中具身决策的工作。
+- **2024年6月**：将作为嘉宾参加 [CVPR 2024 第五届 Embodied AI Workshop](https://embodied-ai.org/cvpr2024/)的小组讨论。
+- **2024年5月**：在 ICLR 2024 报告 [SALMON](https://github.com/IBM/SALMON) 与 [HAZARD](https://github.com/UMass-Embodied-AGI/HAZARD)。
+- **2023年7月**：在 ACL 2023 做 [DBKD-PLM](https://github.com/THUNLP-MT/DBKD-PLM) 口头报告。
+- **2023年6月**：我们团队在 CVPR 2023组织了 [第二届 MVCS workshop](https://mvcs-workshop.github.io/) 。
+- **2023年6月**：我再次从清华大学毕业，感谢 [清华 NLP 组](https://nlp.csai.tsinghua.edu.cn/) 的同窗与师长。
+- **2022年10月**：团队在 ECCV 2022组织了 [第一届 MVCS workshop](https://mvcs-workshop.github.io/old.html)，我担任了现场主持。
 
 <br>
 
-# 📝 Recent Publications 
+# 📝 近期论文 
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -63,7 +60,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 
   [paper](https://arxiv.org/abs/2508.14893), [code](umass-Embodied-AGI/virtual-community), [page](https://virtual-community-ai.github.io/)
 
-  Media: [X](https://x.com/gan_chuang/status/1936127749925527919), [TechBeat](https://www.techbeat.net/talk-info?id=994&sessionid=), [新智元](https://mp.weixin.qq.com/s/zICxQp2DYXXJ6u4KJH-OQw), [Z Tech](https://www.sohu.com/a/908759862_122063396), [机器之心](https://mp.weixin.qq.com/s/ycuftcoJ60ua4vv3AtKuUA), [青稞AI](https://qingkeai.online/archives/xysVAAMV)
+  报道: [X](https://x.com/gan_chuang/status/1936127749925527919), [TechBeat](https://www.techbeat.net/talk-info?id=994&sessionid=), [新智元](https://mp.weixin.qq.com/s/zICxQp2DYXXJ6u4KJH-OQw), [Z Tech](https://www.sohu.com/a/908759862_122063396), [机器之心](https://mp.weixin.qq.com/s/ycuftcoJ60ua4vv3AtKuUA), [青稞AI](https://qingkeai.online/archives/xysVAAMV)
   </div>
 </div>
 
@@ -190,14 +187,14 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 
 <br><br>
 
-Service
+学术服务
 ======
-* Organizer of the MVCS workshop ([ECCV 2022](https://mvcs-workshop.github.io/schedule.html) as the host, [CVPR 2023](https://mvcs-workshop.github.io/))
-* Challenge organizer of the Embodied AI workshop ([CVPR 2025](https://embodied-ai.org/cvpr2025/), [CVPR 2024](https://embodied-ai.org/cvpr2024/))
-* Reviewer of ICML (silver reviewer), ICLR, NeurIPS, CVPR, ECCV, AAAI, IJCV, IEEE TIP, IEEE MM, etc.
-* Program Committee of AAAI.
+* MVCS workshop 组织者（[ECCV 2022](https://mvcs-workshop.github.io/schedule.html)担任现场主持，[CVPR 2023](https://mvcs-workshop.github.io/)）
+* Embodied AI workshop 竞赛组织者（[CVPR 2025](https://embodied-ai.org/cvpr2025/)，[CVPR 2024](https://embodied-ai.org/cvpr2024/)）
+* 审稿人：ICML（银奖审稿人）、ICLR、NeurIPS、CVPR、ECCV、AAAI、IJCV、IEEE TIP、IEEE MM 等。
+* AAAI Program Committee（程序委员会委员）
 
-Experience
+实习与经历
 ======
 <div class="experience-list">
 
@@ -210,7 +207,7 @@ Experience
 </div>
 <div class="exp-text" markdown="1">
 
-**May 2026 - Sep 2026**: Student researcher at [Google DeepMind](https://deepmind.google/). Research Topic: agentic reasoning.
+**2026年5月—9月**：在 [Google DeepMind](https://deepmind.google/) 担任 Student researcher（学生研究员）。研究方向：agentic reasoning（智能体推理）。
 
 </div>
 </div>
@@ -221,7 +218,7 @@ Experience
 </div>
 <div class="exp-text" markdown="1">
 
-**May 2025 - Aug 2025**: Research Topic: embodied multi-agent at [MERL](https://www.merl.com/).
+**2025年5月—8月**：在 [MERL](https://www.merl.com/) 实习，研究方向：具身多智能体。
 
 </div>
 </div>
@@ -235,7 +232,7 @@ Experience
 </div>
 <div class="exp-text" markdown="1">
 
-**Mar 2024 - Jul 2024**: Research intern at [PKU-Agibot](https://zsdonghao.github.io/) Lab.
+**2024年3月—7月**：科研实习，[PKU-Agibot Lab（北大-智元实验室）](https://zsdonghao.github.io/).
 
 </div>
 </div>
@@ -246,7 +243,7 @@ Experience
 </div>
 <div class="exp-text" markdown="1">
 
-**Sep 2023 - Mar 2024**: Research intern at [ModelBest](https://huggingface.co/openbmb) Inc.
+**2023年9月—2024年3月**：科研实习 [ModelBest / OpenBMB](https://huggingface.co/openbmb)。
 
 </div>
 </div>
@@ -257,7 +254,7 @@ Experience
 </div>
 <div class="exp-text" markdown="1">
 
-**Feb 2023 - Jun 2023**: Research intern at [Baidu Vision Group](https://research.baidu.com/).
+**2023年2月—6月**：百度视觉组算法实习生，[Baidu Vision Group](https://research.baidu.com/)。
 
 </div>
 </div>

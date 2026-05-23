@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "授课"
+permalink: /zh/teaching/
+author_profile: true
+lang: zh
+---
+
+{% include lang-switch.html en_url='/teaching/' %}
+
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html locale="zh" %}
+{% endfor %}

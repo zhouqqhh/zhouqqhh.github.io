@@ -1,0 +1,4 @@
+# Masthead navigation for Chinese-language pages (`page.lang: zh`).
+main:
+  - title: "授课"
+    url: /zh/teaching/

@@ -109,3 +109,191 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
 }
+
+/* Employer marks in Experience — bounded logo gutter + stable img sizing (avoid SVG/grid blowout) */
+$exp_logo_h: 26px;
+
+.page .page__content .experience-list {
+  margin: 0.35rem 0 0;
+
+  > .exp-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0 1rem;
+    padding: 0.6rem 0;
+    margin: 0;
+    border-bottom: 1px solid var(--global-border-color, rgba(0, 0, 0, 0.08));
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .exp-visual {
+    flex: 0 0 10.75rem;
+    width: 10.75rem;
+    max-width: 10.75rem;
+    min-width: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+    min-height: #{$exp_logo_h};
+  }
+
+  .exp-text {
+    flex: 1 1 0%;
+    font-size: 0.935em;
+    line-height: 1.42;
+    min-width: 0;
+
+    p {
+      margin: 0;
+    }
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  img.exp-logo {
+    box-sizing: content-box !important;
+    flex: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+
+    height: #{$exp_logo_h} !important;
+    max-height: #{$exp_logo_h} !important;
+    width: auto !important;
+
+    display: inline-block !important;
+    vertical-align: middle !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+  }
+
+  .exp-logos {
+    flex: none;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: nowrap;
+    min-width: 0;
+
+    img {
+      box-sizing: content-box !important;
+      flex: 1 1 auto;
+      min-width: 0;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+      box-shadow: none !important;
+
+      height: #{$exp_logo_h} !important;
+      max-height: #{$exp_logo_h} !important;
+      width: auto !important;
+
+      display: inline-block !important;
+      vertical-align: middle !important;
+
+      max-width: calc(50% - 0.2rem) !important;
+      object-fit: contain !important;
+    }
+  }
+
+  img.exp-logo--square {
+    width: #{$exp_logo_h} !important;
+    max-width: #{$exp_logo_h} !important;
+    height: #{$exp_logo_h} !important;
+    max-height: #{$exp_logo_h} !important;
+    object-fit: contain !important;
+  }
+
+  @include breakpoint(max-width $small) {
+    > .exp-row {
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+      .exp-visual {
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 0.08rem;
+      }
+    }
+  }
+}
+
+/* Fallback if reused without `.page .page__content` */
+.experience-list > .exp-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1rem;
+
+  .exp-visual {
+    flex: 0 0 10.75rem;
+    width: 10.75rem;
+    max-width: 10.75rem;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  img.exp-logo,
+  .exp-logos img {
+    height: #{$exp_logo_h} !important;
+    max-height: #{$exp_logo_h} !important;
+    width: auto !important;
+    object-fit: contain !important;
+    max-width: 100% !important;
+    box-sizing: content-box !important;
+  }
+
+  .exp-logos img {
+    max-width: calc(50% - 0.2rem) !important;
+  }
+}
+
+/* EN / 中文 toggle (home + teaching archives) */
+.lang-switch {
+  font-size: 0.875rem;
+  line-height: 1.35;
+  text-align: right;
+  margin: 0 0 0.95rem;
+
+  &__current {
+    font-weight: 600;
+  }
+
+  &__sep {
+    opacity: 0.6;
+    user-select: none;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom-color: var(--global-text-color, #000);
+      opacity: 0.85;
+    }
+  }
+}
