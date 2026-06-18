@@ -16,7 +16,7 @@ I am currently a Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](ht
 My current research focuses on embodied agentic frameworks and multi-agent systems.
 
 # 🔥 News
-- **Jul 2026**: Two papers were provisionally accepted to [ECCV 2026](https://eccv.ecva.net/).
+- **Jun 2026**: Two papers were provisionally accepted to [ECCV 2026](https://eccv.ecva.net/).
 - **May 2026**: I started at [Google DeepMind](https://deepmind.google/) as a student researcher, working on agent multi-turn reasoning.
 - **Apr 2026**: I gave an invited talk, *Building Embodied Open-World Simulators*, at Rutgers University.
 - **Sep 2025**: I reached 1,000 citations.
@@ -37,13 +37,47 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge">ECCV 2026 Conditional Accept</div>
+      <img src='{{ site.baseurl }}/images/teaser/cinecrew.png' alt="CineCrew narrative-to-film pipeline">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation
+
+  Jiaben Chen, Sixun Dong, **Qinhong Zhou**, Raine Ma, Zhiyang Dou, Wojciech Matusik, Chuang Gan
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ECCV 2026 Conditional Accept</div>
+      <img src='{{ site.baseurl }}/images/teaser/sentinel.png' alt="Sentinel cooperative spatial reasoning pipeline">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Sentinel: Embodied Cooperative Spatial Reasoning and Planning](https://arxiv.org/abs/2605.26239)
+
+  Xiangye Lin, Hongxin Zhang, Ruxi Deng, **Qinhong Zhou**, Chuang Gan
+
+  [arXiv](https://arxiv.org/abs/2605.26239), [code](https://github.com/UMass-Embodied-AGI/Sentinel)
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
       <div class="badge">ICML 2026</div>
       <img src='{{ site.baseurl }}/images/teaser/llawco.png' alt="LLawCo benchmark overview" width="300" height="200" style="object-position: center;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior]()
+  LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior
 
   **Qinhong Zhou**, Chuang Gan, Anoop Cherian
 
@@ -59,11 +93,11 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [Virtual Community: An Open World for Humans, Robots, and Society]()
+  [Virtual Community: An Open World for Humans, Robots, and Society](https://arxiv.org/abs/2508.14893)
 
   **Qinhong Zhou**\*, Hongxin Zhang\*, Xiangye Lin\*, Zheyuan Zhang\*, Yutian Chen, Wenjun Liu, Zunzhe Zhang, Sunli Chen, Lixing Fang, Qiushi Lyu, Xinyu Sun, Jincheng Yang, Zeyuan Wang, Bao Chi Dang, Zhehuan Chen, Daksha Ladia, Jiageng Liu, Chuang Gan
 
-  [paper](https://arxiv.org/abs/2508.14893), [code](umass-Embodied-AGI/virtual-community), [page](https://virtual-community-ai.github.io/)
+  [paper](https://arxiv.org/abs/2508.14893), [code](https://github.com/UMass-Embodied-AGI/virtual-community), [page](https://virtual-community-ai.github.io/)
 
   Media: [X](https://x.com/gan_chuang/status/1936127749925527919), [TechBeat](https://www.techbeat.net/talk-info?id=994&sessionid=), [新智元](https://mp.weixin.qq.com/s/zICxQp2DYXXJ6u4KJH-OQw), [Z Tech](https://www.sohu.com/a/908759862_122063396), [机器之心](https://mp.weixin.qq.com/s/ycuftcoJ60ua4vv3AtKuUA), [青稞AI](https://qingkeai.online/archives/xysVAAMV)
   </div>
@@ -78,11 +112,11 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [Ella: Embodied Social Agents with Lifelong Memory]()
+  [Ella: Embodied Social Agents with Lifelong Memory](https://arxiv.org/abs/2506.24019)
 
   Hongxin Zhang*, Zheyuan Zhang*, Zeyuan Wang*, Zunzhe Zhang, Lixing Fang, **Qinhong Zhou**, Chuang Gan
 
-  [arXiv](https://arxiv.org/abs/2506.24019), [code](https://github.com/UMass-Embodied-AGI/Ella), [page]([https://vis-www.cs.umass.edu/Co-LLM-Agents/](https://umass-embodied-agi.github.io/Ella/))
+  [arXiv](https://arxiv.org/abs/2506.24019), [code](https://github.com/UMass-Embodied-AGI/Ella), [page](https://umass-embodied-agi.github.io/Ella/)
   </div>
 </div>
 
@@ -95,7 +129,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [Building Cooperative Embodied Agents Modularly with Large Language Models]()
+  [Building Cooperative Embodied Agents Modularly with Large Language Models](https://arxiv.org/abs/2307.02485)
 
   Hongxin Zhang*, Weihua Du*, Jiaming Shan, **Qinhong Zhou**, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu
 
@@ -112,7 +146,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments with Large Language Models]()
+  [HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments with Large Language Models](https://arxiv.org/abs/2401.12975)
 
   **Qinhong Zhou**\*, Sunli Chen\*, Yisong Wang, Haozhe Xu, Weihua Du, Hongxin Zhang, Yilun Du, Joshua B. Tenenbaum, Chuang Gan
 
@@ -129,7 +163,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [SALMON: Self-Alignment with Principle-Following Reward Models]()
+  [SALMON: Self-Alignment with Principle-Following Reward Models](https://arxiv.org/abs/2310.05910)
 
   Zhiqing Sun, Yikang Shen, Hongxin Zhang, **Qinhong Zhou**, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan
 
@@ -148,7 +182,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [Visual Chain-of-Thought Prompting for Knowledge-based Visual Reasoning]()
+  [Visual Chain-of-Thought Prompting for Knowledge-based Visual Reasoning](https://arxiv.org/abs/2301.05226)
 
   Zhenfang Chen\*, **Qinhong Zhou**\*, Yikang Shen, Yining Hong, Zhiqing Sun, Dan Gutfreund, Chuang Gan
 
@@ -165,7 +199,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision]()
+  [Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision](https://arxiv.org/abs/2305.03047)
 
   Zhiqing Sun, Yikang Shen, **Qinhong Zhou**, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan
 
@@ -182,11 +216,28 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  [Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models]()
+  [Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models](https://arxiv.org/abs/2306.08909)
 
   **Qinhong Zhou**, Zonghan Yang, Peng Li, Yang Liu
 
   [arXiv](https://arxiv.org/abs/2306.08909), [code](https://github.com/THUNLP-MT/DBKD-PLM)
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img class="paper-teaser--wide" src='{{ site.baseurl }}/images/teaser/adads.png' alt="AdaDS adaptive data selection for knowledge distillation">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [AdaDS: Adaptive Data Selection for Accelerating Pre-trained Language Model Knowledge Distillation](https://nlp.csai.tsinghua.edu.cn/~ly/papers/aiopen23_zqh.pdf)
+
+  **Qinhong Zhou**, Peng Li, Yang Liu, Yuyang Guan, Qizhou Xing, Ming Chen, Maosong Sun
+
+  [paper](https://nlp.csai.tsinghua.edu.cn/~ly/papers/aiopen23_zqh.pdf)
+
   </div>
 </div>
 
