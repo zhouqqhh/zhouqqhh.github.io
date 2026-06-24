@@ -16,6 +16,7 @@ I am currently a Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](ht
 My current research focuses on embodied agentic frameworks and multi-agent systems.
 
 # 🔥 News
+- **Jun 2026**: I wrote two blog posts: [*Scaling Autonomous Work*](/blog/scaling-autonomous-research/) and [*AI Transition & Social Absorption*](/blog/ai-transition-social-absorption/).
 - **May 2026**: I started at [Google DeepMind](https://deepmind.google/) as a student researcher, working on agent multi-turn reasoning.
 - **Apr 2026**: I gave an invited talk, *Building Embodied Open-World Simulators*, at Rutgers University.
 - **Sep 2025**: I reached 1,000 citations.

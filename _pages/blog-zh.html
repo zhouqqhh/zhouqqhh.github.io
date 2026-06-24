@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "随笔"
+permalink: /zh/blog/
+author_profile: true
+lang: zh
+---
+
+{% include lang-switch.html en_url='/blog/' %}
+
+{% include base_path %}
+
+{% for post in site.blog reversed %}
+  {% if post.lang == 'zh' %}
+    {% include archive-single.html locale="zh" %}
+  {% endif %}
+{% endfor %}

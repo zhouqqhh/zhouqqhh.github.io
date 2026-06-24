@@ -46,6 +46,11 @@
           {% else %}
             <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
+        {% elsif post.collection == 'blog' %}
+          <p class="page__date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+          {% if post.excerpt %}
+            <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</p>
+          {% endif %}
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

@@ -13,6 +13,7 @@ author_profile: true
 我目前的研究聚焦于具身智能体框架（embodied agentic frameworks）和多智能体（multi-agent）系统。
 
 # 🔥 动态
+- **2026年6月**：发布两篇随笔：[《扩展自主工作》](/zh/blog/scaling-autonomous-research/) 与 [《AI 转型与社会吸收》](/zh/blog/ai-transition-social-absorption/)。
 - **2026年5月**：开始在 [Google DeepMind](https://deepmind.google/) 实习，研究方向为智能体多轮推理（agent multi-turn reasoning）。
 - **2026年4月**：受邀在罗格斯大学（Rutgers University）汇报，主题为 *Building Embodied Open-World Simulators*。
 - **2025年9月**：谷歌学术总引用突破 1000 次。

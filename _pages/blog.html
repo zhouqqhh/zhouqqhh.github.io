@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Blog"
+permalink: /blog/
+author_profile: true
+lang: en
+---
+
+{% include lang-switch.html zh_url='/zh/blog/' %}
+
+{% include base_path %}
+
+{% for post in site.blog reversed %}
+  {% if post.lang == 'en' %}
+    {% include archive-single.html locale="en" %}
+  {% endif %}
+{% endfor %}

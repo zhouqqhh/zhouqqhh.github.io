@@ -400,3 +400,16 @@ $exp_visual_w: 11.75rem;
     }
   }
 }
+
+/* Blog essay callouts */
+.page__content blockquote {
+  border-left: 3px solid var(--global-link-color, #52adc8);
+  margin: 1.25em 0;
+  padding: 0.65em 1em;
+  background: rgba(0, 0, 0, 0.03);
+  font-size: 0.98em;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
