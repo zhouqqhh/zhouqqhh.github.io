@@ -10,11 +10,11 @@ author_profile: true
 
 我目前是麻省大学阿默斯特分校（UMass Amherst）的博士生，师从 [淦创教授](https://embodied-agi.cs.umass.edu/)。在此之前，我在[清华大学计算机科学与技术系](https://www.cs.tsinghua.edu.cn/csen/)取得本科与硕士学位，导师为 [刘洋教授](http://nlp.csai.tsinghua.edu.cn/~ly/)（[清华大学 自然语言处理与社会计算实验室](http://nlp.csai.tsinghua.edu.cn/)）。
 
-我目前的研究聚焦于具身智能体框架（embodied agentic frameworks）和多智能体（multi-agent）系统。
+我目前的研究方向是具身智能体框架与多智能体系统。
 
 # 🔥 动态
 - **2026年6月**：发布两篇随笔：[《扩展自主工作》](/zh/blog/scaling-autonomous-research/) 与 [《AI 转型与社会吸收》](/zh/blog/ai-transition-social-absorption/)。
-- **2026年5月**：开始在 [Google DeepMind](https://deepmind.google/) 实习，研究方向为智能体多轮推理（agent multi-turn reasoning）。
+- **2026年5月**：赴 [Google DeepMind](https://deepmind.google/) 实习，研究方向为智能体多轮推理。
 - **2026年4月**：受邀在罗格斯大学（Rutgers University）汇报，主题为 *Building Embodied Open-World Simulators*。
 - **2025年9月**：谷歌学术总引用突破 1000 次。
 - **2025年6月**：我们发布了 [Virtual Community](https://virtual-community-ai.github.io/)！。
@@ -260,7 +260,7 @@ author_profile: true
 </div>
 <div class="exp-text" markdown="1">
 
-**2026年5月—9月**：在 [Google DeepMind](https://deepmind.google/) 担任 Student researcher（学生研究员）。研究方向：agentic reasoning（智能体推理）。
+**2026年5月—9月**：在 [Google DeepMind](https://deepmind.google/) 担任学生研究员，研究方向为智能体推理。
 
 </div>
 </div>
