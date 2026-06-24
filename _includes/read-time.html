@@ -1,17 +1,29 @@
 {% if post.read_time %}
-  {% assign words = post.content | strip_html | number_of_words %}
+  {% assign rt_content = post.content | strip_html %}
+  {% assign rt_lang = post.lang %}
 {% elsif page.read_time %}
-  {% assign words = page.content | strip_html | number_of_words %}
+  {% assign rt_content = page.content | strip_html %}
+  {% assign rt_lang = page.lang %}
 {% endif %}
 
-{% if site.words_per_minute %}
+{% if rt_lang == 'zh' %}
+  {% assign chars = rt_content | strip_newlines | replace: ' ', '' | size %}
+  {% assign cpm = site.chinese_chars_per_minute | default: 400 %}
+  {% assign minutes = chars | divided_by: cpm %}
+  {% if minutes < 1 %}
+    少于 1 分钟
+  {% else %}
+    约 {{ minutes }} 分钟
+  {% endif %}
+{% elsif site.words_per_minute %}
+  {% assign words = rt_content | number_of_words %}
   {% if words < 180 %}
-	  {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% elsif words < 360 %}
-	  1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% else %}
-	  {{ words | divided_by:site.words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% endif %}
+    {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+  {% elsif words < 360 %}
+    1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+  {% else %}
+    {{ words | divided_by: site.words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+  {% endif %}
 {% else %}
-  {{ site.data.ui-text[site.locale].undefined_wpm | "Undefined parameter words_per_minute at _config.yml" }}
+  {{ site.data.ui-text[site.locale].undefined_wpm | default: "Undefined parameter words_per_minute at _config.yml" }}
 {% endif %}
