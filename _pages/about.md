@@ -76,9 +76,11 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   </div>
   <div class='paper-box-text' markdown="1">
 
-  LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior
+  [LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior](https://arxiv.org/abs/2606.28182)
 
   **Qinhong Zhou**, Chuang Gan, Anoop Cherian
+
+  [arXiv](https://arxiv.org/abs/2606.28182), code (release pending MERL approval), [page](https://www.merl.com/research/highlights/LLawCo)
 
   </div>
 </div>
