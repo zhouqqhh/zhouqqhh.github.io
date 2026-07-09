@@ -33,7 +33,7 @@ author_profile: true
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ECCV 2026 有条件接收</div>
+      <div class="badge">ECCV 2026</div>
       <img src='{{ site.baseurl }}/images/teaser/cinecrew.png' alt="CineCrew narrative-to-film pipeline">
     </div>
   </div>
@@ -49,7 +49,7 @@ author_profile: true
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ECCV 2026 有条件接收</div>
+      <div class="badge">ECCV 2026</div>
       <img src='{{ site.baseurl }}/images/teaser/sentinel.png' alt="Sentinel cooperative spatial reasoning pipeline">
     </div>
   </div>

@@ -36,7 +36,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ECCV 2026 Conditional Accept</div>
+      <div class="badge">ECCV 2026</div>
       <img src='{{ site.baseurl }}/images/teaser/cinecrew.png' alt="CineCrew narrative-to-film pipeline">
     </div>
   </div>
@@ -52,7 +52,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ECCV 2026 Conditional Accept</div>
+      <div class="badge">ECCV 2026</div>
       <img src='{{ site.baseurl }}/images/teaser/sentinel.png' alt="Sentinel cooperative spatial reasoning pipeline">
     </div>
   </div>
