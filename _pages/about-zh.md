@@ -245,7 +245,7 @@ author_profile: true
 ======
 * MVCS workshop 组织者（[ECCV 2022](https://mvcs-workshop.github.io/schedule.html)担任现场主持，[CVPR 2023](https://mvcs-workshop.github.io/)）
 * Embodied AI workshop 竞赛组织者（[CVPR 2025](https://embodied-ai.org/cvpr2025/)，[CVPR 2024](https://embodied-ai.org/cvpr2024/)）
-* 审稿人：ICML（银奖审稿人）、ICLR、NeurIPS、CVPR、ECCV、AAAI、IJCV、IEEE TIP、IEEE MM 等。
+* 审稿人：ICML（银奖审稿人）、ICLR、NeurIPS、CVPR、ECCV、CoRL、AAAI、IJCV、IEEE TIP、IEEE MM 等。
 * AAAI Program Committee（程序委员会委员）
 
 实习与经历
