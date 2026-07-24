@@ -77,7 +77,7 @@ author_profile: true
 
   **Qinhong Zhou**, Chuang Gan, Anoop Cherian
 
-  [arXiv](https://arxiv.org/abs/2606.28182)，代码（待 MERL 审批后发布），[page](https://www.merl.com/research/highlights/LLawCo)
+  [arXiv](https://arxiv.org/abs/2606.28182)，[code](https://github.com/merlresearch/llawco)，[page](https://www.merl.com/research/highlights/LLawCo)
 
   </div>
 </div>

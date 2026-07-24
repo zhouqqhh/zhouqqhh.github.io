@@ -80,7 +80,7 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 
   **Qinhong Zhou**, Chuang Gan, Anoop Cherian
 
-  [arXiv](https://arxiv.org/abs/2606.28182), code (release pending MERL approval), [page](https://www.merl.com/research/highlights/LLawCo)
+  [arXiv](https://arxiv.org/abs/2606.28182), [code](https://github.com/merlresearch/llawco), [page](https://www.merl.com/research/highlights/LLawCo)
 
   </div>
 </div>
