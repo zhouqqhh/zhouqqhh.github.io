@@ -261,7 +261,7 @@ author_profile: true
 </div>
 <div class="exp-text" markdown="1">
 
-**2026年5月—9月**：在 [Google DeepMind](https://deepmind.google/) 担任学生研究员，研究方向为智能体推理。
+**2026年5月—至今**：在 [Google DeepMind](https://deepmind.google/) 担任学生研究员，研究方向为智能体推理。
 
 </div>
 </div>

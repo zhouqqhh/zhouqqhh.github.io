@@ -264,7 +264,7 @@ Experience
 </div>
 <div class="exp-text" markdown="1">
 
-**May 2026 - Sep 2026**: Student researcher at [Google DeepMind](https://deepmind.google/). Research Topic: agentic reasoning.
+**May 2026 - Now**: Student researcher at [Google DeepMind](https://deepmind.google/). Research Topic: agentic reasoning.
 
 </div>
 </div>
