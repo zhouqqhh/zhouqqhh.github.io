@@ -33,15 +33,34 @@ author_profile: true
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge">CoRL 2026</div>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  HARP-Bench: Benchmarking Robot Manipulation Around Active Humans
+
+  **Qinhong Zhou**\*, Riley Zong\*, Chunru Lin, Shivraj Singh Bhatti, Hongxin Zhang, Diyi Hu, Lin Qiu, Hanqing Zeng, Chuang Gan
+
+  paper（即将发布），code（即将发布）
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
       <div class="badge">ECCV 2026</div>
       <img src='{{ site.baseurl }}/images/teaser/cinecrew.png' alt="CineCrew narrative-to-film pipeline">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-  Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation
+  [Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation](https://arxiv.org/abs/2609.07720)
 
   Jiaben Chen, Sixun Dong, **Qinhong Zhou**, Raine Ma, Zhiyang Dou, Wojciech Matusik, Chuang Gan
+
+  [arXiv](https://arxiv.org/abs/2609.07720)，[code](https://github.com/Ironieser/CineCrew)
 
   </div>
 </div>
