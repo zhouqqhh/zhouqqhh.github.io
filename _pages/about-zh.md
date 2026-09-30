@@ -13,7 +13,7 @@ author_profile: true
 我目前的研究方向是具身智能体框架与多智能体系统。
 
 # 🔥 动态
-- **2026年5月**：赴 [Google DeepMind](https://deepmind.google/) 实习，研究方向为智能体多轮推理。
+- **2026年5月**：赴 [Google DeepMind](https://deepmind.google/) 实习，研究方向为多轮智能体后训练（multi-turn agent post-training）。
 - **2026年4月**：受邀在罗格斯大学（Rutgers University）汇报，主题为 *Building Embodied Open-World Simulators*。
 - **2025年9月**：谷歌学术总引用突破 1000 次。
 - **2025年6月**：我们发布了 [Virtual Community](https://virtual-community-ai.github.io/)！。
