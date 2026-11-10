@@ -61,7 +61,7 @@ Experience
 </div>
 <div class="exp-text" markdown="1">
 
-**May 2025 - Aug 2025**: Research Topic: embodied multi-agent, post-training at [MERL](https://www.merl.com/).
+**May 2025 - Aug 2025**: Research Intern at [MERL](https://www.merl.com/). Research Topic: embodied multi-agent, post-training.
 
 </div>
 </div>
