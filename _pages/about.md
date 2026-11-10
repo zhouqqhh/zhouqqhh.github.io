@@ -13,7 +13,7 @@ redirect_from:
 
 I am currently a Ph.D. student at UMass Amherst advised by Prof. [Chuang Gan](https://people.csail.mit.edu/ganchuang/). Before that, I am obtained my master degree at [Tsinghua NLP](http://nlp.csai.tsinghua.edu.cn/) advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/) and my bachelor degree at [CST@THU](https://www.cs.tsinghua.edu.cn/csen/).
 
-My current research focuses on embodied agentic frameworks and multi-agent systems.
+My current research focuses on embodied agentic frameworks, multi-turn post-training, and multi-agent systems.
 
 # 🔥 News
 - **May 2026**: I started at [Google DeepMind](https://deepmind.google/) as a student researcher, working on multi-turn agent post-training.

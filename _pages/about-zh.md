@@ -10,7 +10,7 @@ author_profile: true
 
 我目前是麻省大学阿默斯特分校（UMass Amherst）的博士生，师从 [淦创教授](https://embodied-agi.cs.umass.edu/)。在此之前，我在[清华大学计算机科学与技术系](https://www.cs.tsinghua.edu.cn/csen/)取得本科与硕士学位，导师为 [刘洋教授](http://nlp.csai.tsinghua.edu.cn/~ly/)（[清华大学 自然语言处理与社会计算实验室](http://nlp.csai.tsinghua.edu.cn/)）。
 
-我目前的研究方向是具身智能体框架与多智能体系统。
+我目前的研究方向是具身智能体框架、多轮后训练与多智能体系统。
 
 # 🔥 动态
 - **2026年5月**：赴 [Google DeepMind](https://deepmind.google/) 实习，研究方向为多轮智能体后训练（multi-turn agent post-training）。
