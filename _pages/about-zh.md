@@ -16,6 +16,10 @@ author_profile: true
 - **2026年5月**：赴 [Google DeepMind](https://deepmind.google/) 实习，研究方向为多轮智能体后训练（multi-turn agent post-training）。
 - **2026年4月**：受邀在罗格斯大学（Rutgers University）汇报，主题为 *Building Embodied Open-World Simulators*。
 - **2025年9月**：谷歌学术总引用突破 1000 次。
+
+<details class="news-archive" markdown="1">
+<summary><span class="news-expand">展开更多动态</span><span class="news-collapse">收起历史动态</span></summary>
+
 - **2025年6月**：我们发布了 [Virtual Community](https://virtual-community-ai.github.io/)！。
 - **2025年2月**：我将于 [纽约视觉日 NYC Vision Day 2025](https://cs.nyu.edu/~fouhey/NYCVision2025/) 介绍项目 *Virtual Community*。
 - **2024年6月**：应邀在 [智东西](https://course.zhidx.com/teacher/detail/NmJkNTgzZmI2ZjdlNzEyOTgyZDM=)分享关于动态开放环境中具身决策的工作。
@@ -26,6 +30,77 @@ author_profile: true
 - **2023年6月**：我再次从清华大学毕业，感谢 [清华 NLP 组](https://nlp.csai.tsinghua.edu.cn/) 的同窗与师长。
 - **2022年10月**：团队在 ECCV 2022组织了 [第一届 MVCS workshop](https://mvcs-workshop.github.io/old.html)，我担任了现场主持。
 
+</details>
+
+<br>
+
+实习与经历
+======
+<div class="experience-list">
+
+<div class="exp-row">
+<div class="exp-visual">
+<div class="exp-logos exp-logos--lg">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/google-wordmark.svg" width="272" height="92" alt="Google logo"></span>
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/deepmind-symbol.svg" width="118" height="119" alt="DeepMind logo"></span>
+</div>
+</div>
+<div class="exp-text" markdown="1">
+
+**2026年5月—至今**：在 [Google DeepMind](https://deepmind.google/) 担任学生研究员，研究方向为智能体推理。
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/mitsubishi-electric.svg" width="794" height="242" alt="Mitsubishi Electric logo (MERL)"></span>
+</div>
+<div class="exp-text" markdown="1">
+
+**2025年5月—8月**：在 [MERL](https://www.merl.com/) 实习，研究方向：具身多智能体。
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<div class="exp-logos exp-logos--lg">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/peking-university-seal.svg" width="146" height="147" alt="Peking University logo"></span>
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/agibot.png" width="320" height="320" alt="AgiBot logo"></span>
+</div>
+</div>
+<div class="exp-text" markdown="1">
+
+**2024年3月—7月**：科研实习，[PKU-Agibot Lab（北大-智元实验室）](https://zsdonghao.github.io/).
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="34" height="34" alt="OpenBMB / ModelBest logo"></span>
+</div>
+<div class="exp-text" markdown="1">
+
+**2023年9月—2024年3月**：科研实习 [ModelBest / OpenBMB](https://huggingface.co/openbmb)。
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/baidu-colored.svg" width="231" height="79" alt="Baidu logo"></span>
+</div>
+<div class="exp-text" markdown="1">
+
+**2023年2月—6月**：百度视觉组算法实习生，[Baidu Vision Group](https://research.baidu.com/)。
+
+</div>
+</div>
+
+</div>
+
 <br>
 
 # 📝 近期论文 
@@ -34,15 +109,16 @@ author_profile: true
   <div class='paper-box-image'>
     <div>
       <div class="badge">CoRL 2026</div>
+      <img class="paper-teaser--wide" src='{{ site.baseurl }}/images/teaser/harp.png' alt="HARP-Bench：活跃人类周围的机器人操作场景" width="1920" height="1080">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-  HARP-Bench: Benchmarking Robot Manipulation Around Active Humans
+  [HARP-Bench: Benchmarking Robot Manipulation Around Active Humans](https://arxiv.org/abs/2611.11123)
 
   **Qinhong Zhou**\*, Riley Zong\*, Chunru Lin, Shivraj Singh Bhatti, Hongxin Zhang, Diyi Hu, Lin Qiu, Hanqing Zeng, Chuang Gan
 
-  paper（即将发布），code（即将发布）
+  [paper](https://arxiv.org/abs/2611.11123)，[code](https://github.com/UMass-Embodied-AGI/harp)
 
   </div>
 </div>
@@ -266,70 +342,3 @@ author_profile: true
 * Embodied AI workshop 竞赛组织者（[CVPR 2025](https://embodied-ai.org/cvpr2025/)，[CVPR 2024](https://embodied-ai.org/cvpr2024/)）
 * 审稿人：ICML（银奖审稿人）、ICLR、NeurIPS、CVPR、ECCV、CoRL、AAAI、IJCV、IEEE TIP、IEEE MM 等。
 * AAAI Program Committee（程序委员会委员）
-
-实习与经历
-======
-<div class="experience-list">
-
-<div class="exp-row">
-<div class="exp-visual">
-<div class="exp-logos exp-logos--lg">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/google-wordmark.svg" width="272" height="92" alt="Google logo"></span>
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/deepmind-symbol.svg" width="118" height="119" alt="DeepMind logo"></span>
-</div>
-</div>
-<div class="exp-text" markdown="1">
-
-**2026年5月—至今**：在 [Google DeepMind](https://deepmind.google/) 担任学生研究员，研究方向为智能体推理。
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/mitsubishi-electric.svg" width="794" height="242" alt="Mitsubishi Electric logo (MERL)"></span>
-</div>
-<div class="exp-text" markdown="1">
-
-**2025年5月—8月**：在 [MERL](https://www.merl.com/) 实习，研究方向：具身多智能体。
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<div class="exp-logos exp-logos--lg">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/peking-university-seal.svg" width="146" height="147" alt="Peking University logo"></span>
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/agibot.png" width="320" height="320" alt="AgiBot logo"></span>
-</div>
-</div>
-<div class="exp-text" markdown="1">
-
-**2024年3月—7月**：科研实习，[PKU-Agibot Lab（北大-智元实验室）](https://zsdonghao.github.io/).
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="34" height="34" alt="OpenBMB / ModelBest logo"></span>
-</div>
-<div class="exp-text" markdown="1">
-
-**2023年9月—2024年3月**：科研实习 [ModelBest / OpenBMB](https://huggingface.co/openbmb)。
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/baidu-colored.svg" width="231" height="79" alt="Baidu logo"></span>
-</div>
-<div class="exp-text" markdown="1">
-
-**2023年2月—6月**：百度视觉组算法实习生，[Baidu Vision Group](https://research.baidu.com/)。
-
-</div>
-</div>
-
-</div>

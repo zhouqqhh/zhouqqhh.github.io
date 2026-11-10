@@ -41,6 +41,30 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
+.news-archive {
+  margin-bottom: 1em;
+
+  > summary {
+    width: fit-content;
+    color: var(--global-link-color);
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 4px;
+    }
+  }
+
+  &:not([open]) .news-collapse,
+  &[open] .news-expand {
+    display: none;
+  }
+}
+
 .paper-box {
   display: flex;
   justify-content: left;

@@ -19,6 +19,10 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 - **May 2026**: I started at [Google DeepMind](https://deepmind.google/) as a student researcher, working on multi-turn agent post-training.
 - **Apr 2026**: I gave an invited talk, *Building Embodied Open-World Simulators*, at Rutgers University.
 - **Sep 2025**: I reached 1,000 citations.
+
+<details class="news-archive" markdown="1">
+<summary><span class="news-expand">Show older news</span><span class="news-collapse">Show less</span></summary>
+
 - **Jun 2025**: 🔥🔥 We released [Virtual Community](https://virtual-community-ai.github.io/)!.
 - **Feb 2025**: I will give a talk on my recent project *Virtual Community* at [NYC Vision Day 2025](https://cs.nyu.edu/~fouhey/NYCVision2025/).
 - **Jun 2024**: I will give a talk on embodied decision-making in dynamically changing environments at [zhidx](https://course.zhidx.com/teacher/detail/NmJkNTgzZmI2ZjdlNzEyOTgyZDM=).
@@ -29,6 +33,77 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
 - **Jun 2023**: I graduated from Tsinghua University again! It was a wonderful journey with the [THU-NLP group](https://nlp.csai.tsinghua.edu.cn/).
 - **Oct 2022**: Our team organized [the first MVCS workshop](https://mvcs-workshop.github.io/old.html) at ECCV 2022, where I hosted the event.
 
+</details>
+
+<br>
+
+Experience
+======
+<div class="experience-list">
+
+<div class="exp-row">
+<div class="exp-visual">
+<div class="exp-logos exp-logos--lg">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/google-wordmark.svg" width="272" height="92" alt="Google logo"></span>
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/deepmind-symbol.svg" width="118" height="119" alt="DeepMind logo"></span>
+</div>
+</div>
+<div class="exp-text" markdown="1">
+
+**May 2026 - Now**: Student researcher at [Google DeepMind](https://deepmind.google/). Research Topic: agentic reasoning.
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/mitsubishi-electric.svg" width="794" height="242" alt="Mitsubishi Electric logo (MERL)"></span>
+</div>
+<div class="exp-text" markdown="1">
+
+**May 2025 - Aug 2025**: Research Topic: embodied multi-agent at [MERL](https://www.merl.com/).
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<div class="exp-logos exp-logos--lg">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/peking-university-seal.svg" width="146" height="147" alt="Peking University logo"></span>
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/agibot.png" width="320" height="320" alt="AgiBot logo"></span>
+</div>
+</div>
+<div class="exp-text" markdown="1">
+
+**Mar 2024 - Jul 2024**: Research intern at [PKU-Agibot](https://zsdonghao.github.io/) Lab.
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="34" height="34" alt="OpenBMB / ModelBest logo"></span>
+</div>
+<div class="exp-text" markdown="1">
+
+**Sep 2023 - Mar 2024**: Research intern at [ModelBest](https://huggingface.co/openbmb) Inc.
+
+</div>
+</div>
+
+<div class="exp-row">
+<div class="exp-visual">
+<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/baidu-colored.svg" width="231" height="79" alt="Baidu logo"></span>
+</div>
+<div class="exp-text" markdown="1">
+
+**Feb 2023 - Jun 2023**: Research intern at [Baidu Vision Group](https://research.baidu.com/).
+
+</div>
+</div>
+
+</div>
+
 <br>
 
 # 📝 Recent Publications 
@@ -37,15 +112,16 @@ My current research focuses on embodied agentic frameworks and multi-agent syste
   <div class='paper-box-image'>
     <div>
       <div class="badge">CoRL 2026</div>
+      <img class="paper-teaser--wide" src='{{ site.baseurl }}/images/teaser/harp.png' alt="HARP-Bench robot manipulation around active humans" width="1920" height="1080">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-  HARP-Bench: Benchmarking Robot Manipulation Around Active Humans
+  [HARP-Bench: Benchmarking Robot Manipulation Around Active Humans](https://arxiv.org/abs/2611.11123)
 
   **Qinhong Zhou**\*, Riley Zong\*, Chunru Lin, Shivraj Singh Bhatti, Hongxin Zhang, Diyi Hu, Lin Qiu, Hanqing Zeng, Chuang Gan
 
-  paper (coming soon), code (coming soon)
+  [paper](https://arxiv.org/abs/2611.11123), [code](https://github.com/UMass-Embodied-AGI/harp)
 
   </div>
 </div>
@@ -269,70 +345,3 @@ Service
 * Challenge organizer of the Embodied AI workshop ([CVPR 2025](https://embodied-ai.org/cvpr2025/), [CVPR 2024](https://embodied-ai.org/cvpr2024/))
 * Reviewer of ICML (silver reviewer), ICLR, NeurIPS, CVPR, ECCV, CoRL, AAAI, IJCV, IEEE TIP, IEEE MM, etc.
 * Program Committee of AAAI.
-
-Experience
-======
-<div class="experience-list">
-
-<div class="exp-row">
-<div class="exp-visual">
-<div class="exp-logos exp-logos--lg">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/google-wordmark.svg" width="272" height="92" alt="Google logo"></span>
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/deepmind-symbol.svg" width="118" height="119" alt="DeepMind logo"></span>
-</div>
-</div>
-<div class="exp-text" markdown="1">
-
-**May 2026 - Now**: Student researcher at [Google DeepMind](https://deepmind.google/). Research Topic: agentic reasoning.
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/mitsubishi-electric.svg" width="794" height="242" alt="Mitsubishi Electric logo (MERL)"></span>
-</div>
-<div class="exp-text" markdown="1">
-
-**May 2025 - Aug 2025**: Research Topic: embodied multi-agent at [MERL](https://www.merl.com/).
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<div class="exp-logos exp-logos--lg">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/peking-university-seal.svg" width="146" height="147" alt="Peking University logo"></span>
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/agibot.png" width="320" height="320" alt="AgiBot logo"></span>
-</div>
-</div>
-<div class="exp-text" markdown="1">
-
-**Mar 2024 - Jul 2024**: Research intern at [PKU-Agibot](https://zsdonghao.github.io/) Lab.
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<span class="exp-brand-slot exp-brand-slot--icon"><img class="exp-logo exp-logo--square" src="{{ site.baseurl }}/images/logos/openbmb.png" width="34" height="34" alt="OpenBMB / ModelBest logo"></span>
-</div>
-<div class="exp-text" markdown="1">
-
-**Sep 2023 - Mar 2024**: Research intern at [ModelBest](https://huggingface.co/openbmb) Inc.
-
-</div>
-</div>
-
-<div class="exp-row">
-<div class="exp-visual">
-<span class="exp-brand-slot"><img class="exp-logo" src="{{ site.baseurl }}/images/logos/baidu-colored.svg" width="231" height="79" alt="Baidu logo"></span>
-</div>
-<div class="exp-text" markdown="1">
-
-**Feb 2023 - Jun 2023**: Research intern at [Baidu Vision Group](https://research.baidu.com/).
-
-</div>
-</div>
-
-</div>
