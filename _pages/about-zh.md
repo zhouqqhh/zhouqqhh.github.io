@@ -58,7 +58,7 @@ author_profile: true
 </div>
 <div class="exp-text" markdown="1">
 
-**2025年5月—8月**：在 [MERL](https://www.merl.com/) 实习，研究方向：具身多智能体。
+**2025年5月—8月**：在 [MERL](https://www.merl.com/) 实习，研究方向：具身多智能体（embodied multi-agent）与后训练（post-training）。
 
 </div>
 </div>
